@@ -16,7 +16,7 @@ int main()
 	int x;
 	while(1)
 	{
-
+		
 	x=PINC & 0b00000111;
 if(x==0)
 PORTB=0b00001001;
@@ -33,6 +33,6 @@ PORTB=0b00001001;
 if(x==6)
 PORTB=0b00001010;
 if(x==7)
-PORTB=0b00000001;
+PORTB=0b00001001;
 }
 }
